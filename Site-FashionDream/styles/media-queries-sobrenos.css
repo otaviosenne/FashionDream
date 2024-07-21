@@ -1,0 +1,72 @@
+@media all and (max-width: 1880px) {
+    .navbar{
+        width: 100%;
+        background-color: #333333;
+        position: static;
+        display: grid;
+        overflow: visible;
+        height: auto;
+        padding: 10px;
+        justify-content: baseline;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    h1{
+        margin: 3%;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    
+    .prima a{
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
+        font-size: 20px;
+    }
+    .nav-left{
+        justify-content: center;
+    }
+    .nav-right{
+        margin: 0;
+    }
+    .dropdown{
+        position: static;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+    .navbar.scrolled{
+        background-color: #333333;
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19);
+        height: auto;
+    }
+    
+    .navbar.scrolled .nav-left{
+        margin-top: -10px;
+    }
+    
+    .navbar.scrolled .dropdown{
+        padding: 0px;
+        border-radius: 0px;
+        background-color: #ffffff;
+    }
+    
+    .navbar.scrolled .dropdown:hover{
+        background-color: #aaaaaa;
+    }
+}
+
+@media all and (max-width: 600px){
+    .prima a{
+        font-size: 20px;
+    }
+    .navbar{
+        margin-left: -1rem;
+    }
+    h1{
+        font-size: 95px;
+        overflow: hidden;
+    }
+    .img-background-sobrenos{
+        overflow: hidden;
+        height: 200px;
+    }
+}

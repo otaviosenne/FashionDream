@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagar</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        form{
+            margin: 10% 20%;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+            padding: 2rem;
+            background-color: azure;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 1rem;
+        }
+        label{
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <a href="../../index.html">Voltar</a>
+        <br><br>
+        <h1>Insira as informações:</h1>
+        <label>Nome completo:</label>
+        <input type="text" placeholder="Seu nome" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" placeholder="Seu email" required>
+        <br><br>
+        <label>Endereço:</label>
+        <input type="text" placeholder="Seu endereço" required>
+        <br><br>
+        <label>cep:</label>
+        <input type="text" placeholder="**.***-***" required>
+        <br><br>
+        <label>Número do cartão:</label>
+        <input type="text" placeholder="cartão" required maxlength="16" minlength="16">
+        <br><br>
+        <label>Válidade do cartão:</label>
+        <input type="text" placeholder="**/**/**" required maxlength="8" minlength="8">
+        <br><br>
+        <label>CVV do cartão:</label>
+        <input type="password" placeholder="CVV" required maxlength="3" minlength="3">
+        <br><br><br><br>
+        <a class="link-obrigado" href="obrigado.html">Avançar</a>
+    </form>
+</body>
+</html>

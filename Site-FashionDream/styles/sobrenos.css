@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #FFF0E1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1{
+    margin: auto;
+    padding-top: 200px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: #FFF;
+    margin-left: 10%;
+    text-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.img-background-sobrenos{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-image:url("../img/image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+p{
+    font-family: "Raleway", sans-serif;
+    margin: 40px 10%;
+    font-size: 30px;
+}
+footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---------------------navbar------------------------- */
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1); /* Preto com 10% de opacidade */
+    backdrop-filter: blur(10px); /* Aplicar desfoque ao fundo */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    z-index: 20;
+    transition: 200ms;
+    overflow: hidden;
+}
+
+.logo-padrao{
+    margin-top: -5px;
+    transition: 1000ms;
+}
+
+.navbar.scrolled{
+    background-color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 70px;
+}
+
+.navbar.scrolled .nav-left{
+    margin-top: -10px;
+}
+
+.navbar.scrolled .dropdown{
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.navbar.scrolled .dropdown:hover{
+    background-color: #aaaaaa;
+}
+
+
+.nav-left{
+    padding-top: 7px;
+    margin-top: 10px;
+    margin-left: 10%;
+    flex: 30%;
+    margin-right: 10%;
+    transition: 200ms;
+}
+
+.nav-right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex: 30%;
+}
+
+.nav-right li{
+    padding: 10px;
+    display: inline-block;
+}
+
+.prima a{
+    transition: 500ms;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.prima a:hover{
+    text-decoration: underline;
+}
+
+#navbar-produtos{
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
+    z-index: 5;
+}
+
+
+.dropdown{
+    border-radius: 50px;
+    background-color: #ffffff;
+    transition: 200ms;
+}
+
+.dropdown:hover {
+    padding: 15px;
+    background-color:#aaaaaa;
+}
+

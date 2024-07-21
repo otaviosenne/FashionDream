@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roupa para mulheres">
+    <meta name="keywords" content="roupa, moda feminina, mulheres">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles\media-queries.css">
+    <title>FashionDream</title>
+</head>
+<body>
+    <div id="navBarID"></div>
+    <!-- --------------------------------NAV BAR-------------------------------- -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#navBarID" class="logo-padrao"><img src="img\logos\FahionsDream-icone-logo-FundoReduzido.png"></a>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li class="prima"><a href="#navBarID">Inicio</a></li>
+                <li class="prima"><a href="paginas\sobre-nos.html">Sobre nós</a></li>
+                <li class="prima"><a href="https://wa.me/5534999281133" target="_blank">Contato</a></li>
+                <li class="dropdown">
+                    <a id="navbar-produtos" href="#destaques">Produtos</a>  
+                    <div class="dropdown-menu">
+                        <a style="color: #FFF0E1;" href="#blusas">Blusas</a>
+                        <a style="color: #FFF0E1;" href="#calcas">Calças</a>
+                        <a style="color: #FFF0E1;" href="#vestidos">Vestidos</a>
+                        <a style="color: #FFF0E1;" href="#saias">Saias</a>
+                    </div>
+                </li>
+            </ul>   
+        </div>
+    </nav>
+
+    <!-- --------------------------------HEADER-------------------------------- -->
+    <header>
+        <div class="top-header">
+            <div class="top-header-left">
+                <h1 id="bem-vindo-header">
+                    Bem vindo
+                </h1>
+                <p>A Fashion Dream é a loja de roupas online que transforma seus sonhos de moda em realidade. Nossa missão é oferecer uma experiência de compra única, onde cada peça é cuidadosamente selecionada para refletir o que há de melhor em estilo, qualidade e inovação.</p>
+            </div>
+            <div class="top-header-right">
+            <!-- slider-begin -->
+                <div class="slider">
+                    <div class="slider">
+                        <div class="slides">
+                          <!-- Radio Buttons -->
+                          <input type="radio" name="radio-btn" id="radio1">
+                          <input type="radio" name="radio-btn" id="radio2">
+                          <input type="radio" name="radio-btn" id="radio3">
+                          <input type="radio" name="radio-btn" id="radio4">
+                    
+                          <!-- Slide images -->
+                          <div class="slide first">
+                            <img src="img\carrossel\carrossel1.png" alt="imagem 1">
+                          </div>
+                          <div id="coco" class="slide">
+                            <img src="img\carrossel\carrossel2.png" alt="imagem 2">
+                          </div>
+                          <div class="slide">
+                            <img src="img\carrossel\carrossel3.png" alt="imagem 3">
+                          </div>
+                          <div class="slide">
+                            <img src="img\carrossel\carrossel4.png" alt="imagem 4">
+                          </div>
+                    
+                          <!-- navigacion auto -->
+                          <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                          </div>
+                        </div>
+                        <div class="manual-navigation">
+                          <label for="radio1" class="manual-btn"></label>
+                          <label for="radio2" class="manual-btn"></label>
+                          <label for="radio3" class="manual-btn"></label>
+                          <label for="radio4" class="manual-btn"></label>
+                        </div>
+                      </div>
+                </div>
+            <!-- slider-end -->
+            </div>
+        </div>
+    </header>
+
+    <!-- --------------------------------MAIN-------------------------------- -->
+    <main>
+        <h2 id="destaques">Promoções</h2>
+        <br>
+        <nav class="iframe-nav">
+            <iframe scrolling="no" style="border:none" src="iframes-destaques\destaques.html" width="100%" height="600px" name="meu-iframe" ></iframe>
+        </nav>
+        <div style="height: 60px;" id="blusas"></div>
+        <h3>Blusas</h3>
+        <nav class="iframe-nav">
+            <iframe scrolling="no" style="border:none" src="iframes-destaques\blusas.html" width="100%" height="600px" name="meu-iframe" ></iframe>
+        </nav>
+        <div style="height: 60px;" id="calcas"></div>
+        <h3>Calças</h3>
+        <nav class="iframe-nav">
+            <iframe scrolling="no" style="border:none" src="iframes-destaques\calcas.html" width="100%" height="600px" name="meu-iframe" ></iframe>
+        </nav>
+        <div style="height: 60px;" id="vestidos"></div>
+        <h3>Vestidos</h3>
+        <nav class="iframe-nav">
+            <iframe scrolling="no" style="border:none" src="iframes-destaques\vestidos.html" width="100%" height="600px" name="meu-iframe" ></iframe>
+        </nav>
+        <div style="height: 60px;" id="saias"></div>
+        <h3>Saias</h3>
+        <nav class="iframe-nav">
+            <iframe scrolling="no" style="border:none" src="iframes-destaques\saias.html" width="100%" height="600px" name="meu-iframe" ></iframe>
+        </nav>
+    </main>
+
+
+    <!-- --------------------------------FOOTER-------------------------------- -->
+     
+    <footer>
+        <b class="direitos">© Todos os direitos reservados à FashionDream.</b>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

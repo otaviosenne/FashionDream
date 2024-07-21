@@ -1,0 +1,63 @@
+@media all and (max-width: 1800px) {
+    .top-header-left p{
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+@media all and (max-width: 1675px){
+    .top-header-right{
+        display: none;
+    }
+    .top-header-left p{
+        font-size: 2rem;
+    }
+    .top-header{
+        margin-top: 0;
+        padding-top: 0;
+        height: auto;
+        padding-bottom: 7%;
+    }
+}
+
+@media all and (max-width: 1477px){
+    header{
+        padding-top: 100px;
+    }
+    #bem-vindo-header{
+        margin-top: 10px;
+    }
+    .navbar{
+        margin-left: 5%;
+        display: grid;
+        justify-content: center;
+        position: static;
+        overflow: visible;
+    }
+    .nav-left{
+        margin-left: 0%;
+        flex: 0%;
+        margin-right: 0%;
+    }
+    .nav-right{
+        justify-content: baseline;
+        align-items: baseline;
+        margin-left: -16%;
+        margin-right: 0%;
+        flex: 0%;
+    }
+    .navbar-produtos{
+        position: static;
+    }
+    .dropdown{
+        position: static;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: none;
+    }
+    .navbar.scrolled{
+        box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2), 0 0px 0px 0 rgba(0,0,0,0.19);
+    }
+}
+
